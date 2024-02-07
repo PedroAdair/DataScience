@@ -8,6 +8,7 @@ import torchvision.datasets as datasets
 import torchvision.transforms as T
 import matplotlib.pyplot as plt
 
+
 if torch.cuda.is_available():
     print('GPU disponible')
     device = torch.device('cuda')

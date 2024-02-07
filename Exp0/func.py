@@ -5,6 +5,7 @@ import torch.nn.functional as F
 
 class Red(nn.Module):
     
+    
     def __init__(self, n_entradas):
         super(Red, self).__init__()
         self.linear1 = nn.Linear(n_entradas, 15)
